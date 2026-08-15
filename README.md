@@ -51,20 +51,34 @@ The model supports multi-year financial analysis and financial account hierarchi
 
 ## Current Progress
 
-Completed:
+### Completed
 
-- Balance Sheet modeling
-- Income Statement modeling
+- Balance Sheet data modeling
+- Income Statement data modeling
 - Financial account categorization
-- Financial hierarchy implementation
+- Financial statement hierarchy implementation
 - Star schema design
+- Power Query transformation framework
+- Core Balance Sheet measures
+- Core Income Statement measures
+- EBITDA calculation methodology
+- Financial ratio framework implementation
+- Measure folder architecture following Power BI modeling best practices
+- Financial reporting matrix development
 
-Currently working on:
+### Currently Working On
 
-- Financial measures
-- Financial ratios
-- Dashboard development
+- Remaining financial ratios implementation
+- Credit risk and rating agency metrics
+- Dashboard visualization development
+- Financial performance KPI design
+- Covenant monitoring indicators
+- Advanced analytical measures
 
 ## Project Status
+
+**Active Development**
+
+Current version includes most of the financial ratios typically used in corporate financial analysis and credit risk assessment processes. Measures are organized through a structured folder architecture to improve maintainability, scalability, and navigation, following Power BI modeling best practices. Remaining development focuses primarily on advanced credit risk metrics, covenant monitoring, and dashboard enhancements.
 
 Work in Progress
