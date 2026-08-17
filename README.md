@@ -49,6 +49,8 @@ A custom column named `Cuenta_EN` was created by referencing the original Spanis
 
 This approach allows all referenced queries, models, measures, and visualizations to inherit the translated account structure automatically, reducing maintenance efforts and improving consistency across the entire model.
 
+This design also simplifies the future integration of additional companies into the model while maintaining a consistent analytical structure.
+
 ### Standardized Account Structure
 
 [![DimAccount](https://github.com/mnlandivar/FSA-PowerBI/raw/main/Images/DataModel/DimAccounts.png)](/mnlandivar/FSA-PowerBI/blob/main/Images/DataModel/DimAccounts.png)
