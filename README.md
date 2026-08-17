@@ -27,14 +27,7 @@ Financial Statements currently included:
 - Balance Sheet
 - Income Statement
 
-Additional components currently implemented:
-
-- Financial account categorization
-- Financial statement hierarchy structure
-- Financial ratio framework
-- Account standardization layer
-- Bilingual account structure (Spanish / English)
-- Executive Summary dashboard page
+The model supports multi-year financial analysis, financial account hierarchies, and a standardized bilingual (Spanish/English) reporting structure.
 
 ## Data Model
 
@@ -46,9 +39,9 @@ Star schema model composed of:
 
 The model supports multi-year financial analysis, financial account hierarchies, and standardized reporting structures.
 
-### Data Model
+### Data Model Diagram
 
-![Data Model](Images/DataModel/DataModel.png)
+[![Data Model](https://github.com/mnlandivar/FSA-PowerBI/raw/main/Images/DataModel/DataModel.png)](/mnlandivar/FSA-PowerBI/blob/main/Images/DataModel/DataModel.png)
 
 ## Financial Account Standardization
 
@@ -60,7 +53,7 @@ This approach allows all referenced queries, models, measures, and visualization
 
 ### Standardized Account Structure
 
-![DimAccount](Images/DataModel/DimAccounts.png)
+[![DimAccount](https://github.com/mnlandivar/FSA-PowerBI/raw/main/Images/DataModel/DimAccounts.png)](/mnlandivar/FSA-PowerBI/blob/main/Images/DataModel/DimAccounts.png)
 
 ## Workflow
 
@@ -78,38 +71,28 @@ This approach allows all referenced queries, models, measures, and visualization
 ## Skills Demonstrated
 
 - Financial Statement Analysis
-- Microsoft Excel
-- Power Query
-- Power BI
+- Power Query & Power BI
 - DAX
-- Data Modeling
-- Star Schema Design
-- Business Intelligence
-- Financial Data Standardization
-- Financial Terminology Mapping
+- Data Modeling / Star Schema Design
+- Financial Data & Terminology Standardization
 - Financial Ratio Analysis
 - Accounting Validation Procedures
 - AI-Assisted Data Preparation
+- Business Intelligence Reporting
 
 ## Current Progress
 
 ### Completed
 
-- Balance Sheet data modeling
-- Income Statement data modeling
-- Financial account categorization
-- Financial statement hierarchy implementation
-- Star schema design
-- Power Query transformation framework
-- Core Balance Sheet measures
-- Core Income Statement measures
+- Balance Sheet and Income Statement data modeling
+- Financial account categorization and statement hierarchy implementation
+- Star schema design and Power Query transformation framework
+- Core Balance Sheet and Income Statement measures
 - EBITDA calculation methodology
 - Financial ratio framework implementation
 - Measure folder architecture following Power BI modeling best practices
 - Financial reporting matrix development
-- Balance Sheet account translation framework (Spanish → English)
-- Income Statement account translation framework (Spanish → English)
-- Standardized financial account taxonomy
+- Balance Sheet and Income Statement account translation framework (Spanish → English)
 - Reusable account translation layer implemented in Power Query
 - Executive Summary dashboard development
 - Multi-year KPI trend visualizations
@@ -144,19 +127,23 @@ Additional visualizations include:
 
 The objective of this page is to summarize the company's financial performance, profitability, solvency, growth trends, and capital structure in a single executive-level view.
 
-### Executive Summary
+### Executive Summary Page Preview
 
-![Executive Summary](Images/Dashboard/ExecutiveSummary.png)
+[![Executive Summary](https://github.com/mnlandivar/FSA-PowerBI/raw/main/Images/Dashboard/ExecutiveSummary.png)](/mnlandivar/FSA-PowerBI/blob/main/Images/Dashboard/ExecutiveSummary.png)
 
 ## Currently Working On
+
+**Analytical Pages**
 
 - Balance Sheet Analysis page
 - Income Statement Analysis page
 - Financial Ratios dashboard page
 - Credit Risk dashboard page
 - Rating agency metrics
-- Covenant monitoring indicators
 - Additional analytical measures
+
+**Design & User Experience**
+
 - Dashboard navigation experience
 - Visual design refinement
 - Dark theme implementation
