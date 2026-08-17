@@ -48,7 +48,7 @@ The model supports multi-year financial analysis, financial account hierarchies,
 
 ### Data Model
 
-Images/DataModel/DataModel.png
+![Data Model](Images/DataModel/DataModel.png)
 
 ## Financial Account Standardization
 
