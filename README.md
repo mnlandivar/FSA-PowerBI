@@ -37,8 +37,6 @@ Star schema model composed of:
 - DimDate
 - DimAccount
 
-The model supports multi-year financial analysis, financial account hierarchies, and standardized reporting structures.
-
 ### Data Model Diagram
 
 [![Data Model](https://github.com/mnlandivar/FSA-PowerBI/raw/main/Images/DataModel/DataModel.png)](/mnlandivar/FSA-PowerBI/blob/main/Images/DataModel/DataModel.png)
