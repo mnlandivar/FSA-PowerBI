@@ -95,7 +95,6 @@ This design also simplifies the future integration of additional companies into 
 - Balance Sheet and Income Statement account translation framework (Spanish → English)
 - Reusable account translation layer implemented in Power Query
 - Executive Summary dashboard development
-- Multi-year KPI trend visualizations
 - Capital structure visualization
 - Executive-level financial KPI framework
 
@@ -156,14 +155,8 @@ The objective of this page is to summarize the company's financial performance, 
 
 Current version includes most of the financial ratios traditionally used in corporate financial analysis, credit risk assessment, and rating agency methodologies.
 
-The project now incorporates a bilingual financial account structure, allowing local financial statements to be transformed into a standardized English reporting format suitable for international audiences and future multi-company analysis.
-
 Although the Executive Summary page and the underlying analytical framework have been implemented, the project is not considered complete. The existence of functioning visualizations does not imply that the dashboard design phase has been finalized.
 
 Current development efforts are increasingly focused on report design, user experience, visual consistency, layout optimization, and dashboard presentation quality.
-
-A dark-theme reporting experience is planned for future versions. Visual colors, canvas formatting, navigation elements, and overall styling remain subject to refinement as the dashboard evolves.
-
-Future development will focus on completing the remaining analytical pages, implementing credit risk monitoring features, enhancing covenant analysis, and maturing the overall reporting experience.
 
 **Work in Progress**
