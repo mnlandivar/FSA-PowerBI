@@ -60,7 +60,7 @@ This approach allows all referenced queries, models, measures, and visualization
 
 ### Standardized Account Structure
 
-Images/DataModel/DimAccount.png
+![DimAccount](Images/DataModel/DimAccounts.png)
 
 ## Workflow
 
@@ -146,7 +146,7 @@ The objective of this page is to summarize the company's financial performance, 
 
 ### Executive Summary
 
-Images/Dashboard/ExecutiveSummary.png
+![Executive Summary](Images/Dashboard/ExecutiveSummary.png)
 
 ## Currently Working On
 
