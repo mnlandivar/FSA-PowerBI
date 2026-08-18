@@ -39,7 +39,7 @@ Star schema model composed of:
 
 ### Data Model Diagram
 
-[![Data Model](https://github.com/mnlandivar/FSA-PowerBI/raw/main/Images/DataModel/DataModel.png)](/mnlandivar/FSA-PowerBI/blob/main/Images/DataModel/DataModel.png)
+![Data Model Diagram](Images/DataModel/DataModel.png)
 
 ## Financial Account Standardization
 
@@ -53,7 +53,7 @@ This design also simplifies the future integration of additional companies into 
 
 ### Standardized Account Structure
 
-[![DimAccount](https://github.com/mnlandivar/FSA-PowerBI/raw/main/Images/DataModel/DimAccounts.png)](/mnlandivar/FSA-PowerBI/blob/main/Images/DataModel/DimAccounts.png)
+![Standardized Account Structure](Images/DataModel/DimAccounts.png)
 
 ## Workflow
 
@@ -94,15 +94,19 @@ This design also simplifies the future integration of additional companies into 
 - Financial reporting matrix development
 - Balance Sheet and Income Statement account translation framework (Spanish → English)
 - Reusable account translation layer implemented in Power Query
-- Executive Summary dashboard development
+- Overview dashboard development
+- Balance Sheet Analysis dashboard development
+- Asset Structure by Year visualization
+- Financing Structure by Year visualization
+- Liquidity and solvency trend framework
 - Capital structure visualization
 - Executive-level financial KPI framework
 
 ## Dashboard Development
 
-### Executive Summary
+### Overview
 
-The first dashboard page has been implemented as an Executive Summary designed to provide a high-level overview of the company's financial condition.
+The first dashboard page was designed to provide a high-level overview of the company's financial position, profitability, solvency, and capital structure.
 
 Current features include:
 
@@ -115,37 +119,79 @@ Current features include:
 - ROA
 - ROE
 - EBITDA Margin
-- Debt-to-Equity
+- Debt to Equity
 
 Additional visualizations include:
 
-- Multi-year KPI trend analysis
-- Historical performance overview
-- Capital structure analysis
+- Historical KPI trends
+- Revenue trend analysis
+- EBITDA trend analysis
+- Net Income trend analysis
+- Asset growth analysis
+- Equity growth analysis
+- Financing Structure by Year
 - Interactive period selection
 
-The objective of this page is to summarize the company's financial performance, profitability, solvency, growth trends, and capital structure in a single executive-level view.
+The objective of this page is to summarize the company's financial performance and financial condition in a single executive-level dashboard.
 
-### Executive Summary Page Preview
+### Overview Page Preview
 
-[![Executive Summary](https://github.com/mnlandivar/FSA-PowerBI/raw/main/Images/Dashboard/ExecutiveSummary.png)](/mnlandivar/FSA-PowerBI/blob/main/Images/Dashboard/ExecutiveSummary.png)
+#### No Period Selected
+
+![Overview - No Period Selected](Images/Dashboard/OverviewNoSelection.png)
+
+#### Period Selected
+
+![Overview - Period Selected](Images/Dashboard/OverviewSelectedYear.png)
+
+### Balance Sheet Analysis
+
+The second dashboard page focuses on analyzing the company's financial position through asset composition, financing structure, liquidity, and solvency indicators.
+
+Current features include:
+
+- Total Assets
+- Current Assets
+- Non-Current Assets
+- Total Liabilities
+- Current Liabilities
+- Non-Current Liabilities
+- Equity
+
+Additional visualizations include:
+
+- Asset Structure by Year
+- Financing Structure by Year
+- Current Ratio Trend
+- Quick Ratio Trend
+- Working Capital
+- Debt Ratio Trend
+- Equity Ratio Trend
+
+The objective of this page is to provide a detailed view of the company's financial position, asset composition, sources of financing, liquidity profile, and solvency evolution over time.
+
+### Balance Sheet Analysis Preview
+
+#### No Period Selected
+
+![Balance Sheet Analysis - No Period Selected](Images/FinancialStatements/BalanceSheet/BalanceSheetNoSelection.png)
+
+#### Period Selected
+
+![Balance Sheet Analysis - Period Selected](Images/FinancialStatements/BalanceSheet/BalanceSheetSelectedYear.png)
 
 ## Currently Working On
 
-**Analytical Pages**
+### Analytical Pages
 
-- Balance Sheet Analysis page
 - Income Statement Analysis page
 - Financial Ratios dashboard page
-- Credit Risk dashboard page
-- Rating agency metrics
 - Additional analytical measures
 
-**Design & User Experience**
+### Design & User Experience
 
 - Dashboard navigation experience
 - Visual design refinement
-- Dark theme implementation
 - Report styling and visual consistency
 - Visual formatting optimization
 
@@ -153,10 +199,8 @@ The objective of this page is to summarize the company's financial performance, 
 
 **Active Development**
 
-Current version includes most of the financial ratios traditionally used in corporate financial analysis, credit risk assessment, and rating agency methodologies.
+The current version includes a fully functional Overview page and a dedicated Balance Sheet Analysis page supported by a dimensional financial model, translated account structure, financial ratio framework, and historical trend analysis.
 
-Although the Executive Summary page and the underlying analytical framework have been implemented, the project is not considered complete. The existence of functioning visualizations does not imply that the dashboard design phase has been finalized.
-
-Current development efforts are increasingly focused on report design, user experience, visual consistency, layout optimization, and dashboard presentation quality.
+Current development efforts are focused on expanding the analytical capabilities of the report, beginning with the Income Statement Analysis page and additional financial risk and performance metrics.
 
 **Work in Progress**
