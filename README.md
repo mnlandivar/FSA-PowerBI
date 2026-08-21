@@ -42,6 +42,7 @@ The current version includes four analytical pages covering the three primary fi
 The project is supported by a dimensional financial model, bilingual account standardization framework, DAX-based financial analysis and ratio framework, financial reporting matrices, waterfall analysis, and multi-year trend analysis.
 
 This version represents a complete end-to-end workflow covering financial statement extraction, validation, transformation, modeling, visualization, and financial analysis in Power BI.
+![Overview Dashboard](Images/Overview/OverviewV1.png)
 
 ## Data Model
 Star schema model composed of:
@@ -74,6 +75,9 @@ The model includes a DAX-based financial analysis framework covering:
 - Profitability: Gross Margin, EBITDA Margin, Net Margin, ROA, ROE
 - Cash Flow: Operating, Investing, and Financing Cash Flows
 - Trend Analysis: Year-over-Year and absolute change analysis
+- The DAX measure structure is documented through dedicated measure views included in the repository.
+
+  [View DAX Measures Documentation](Images/Measures/)
 
 ## Skills Demonstrated
 - Financial Statement Analysis
@@ -115,7 +119,6 @@ Additional visualizations include:
 Custom DAX measures were implemented to dynamically control visual behavior based on period selection. Executive KPI cards are displayed only when a specific year is selected, while trend and historical analysis visualizations remain available to support multi-year analysis.
 
 The objective of this page is to summarize the company's financial performance, financial condition, and cash generation capacity in a single executive-level dashboard.
-![Overview Dashboard](Images/Overview/OverviewV1.png)
 
 ### Balance Sheet Analysis
 The second dashboard page focuses on analyzing the company's financial position through asset composition, financing structure, liquidity, and solvency indicators.
@@ -188,3 +191,13 @@ Additional visualizations include:
 
 The objective of this page is to provide a detailed view of the company's cash generation, cash utilization, and cash flow sustainability by analyzing operating, investing, and financing activities over time.
 ![Cash Flow Dashboard](Images/FinancialStatements/CashFlow/CashFlowV1.png)
+
+## Power BI File
+
+The complete Power BI report is included in this repository and is available for download.
+
+The `.pbix` file contains the complete data model, Power Query transformations, DAX measures, calculations, and dashboard pages developed for this project.
+
+**Power BI Desktop is required to open the report.**
+
+[Download the Power BI report](Financial-Statement-Analysis.pbix)
