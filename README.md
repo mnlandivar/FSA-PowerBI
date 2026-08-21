@@ -46,7 +46,7 @@ This version represents a complete end-to-end workflow covering financial statem
 
 ## Data Model
 Star schema model composed of:
-<br>
+
 - FactFinStatements: Financial statement values and reporting data
 - DimDate: Fiscal periods and year-based analysis
 - DimCategory: Financial statement classification
