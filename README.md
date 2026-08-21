@@ -54,7 +54,7 @@ Star schema model composed of:
 The model is supported by an auxiliary table used for Income Statement waterfall analysis.
 
 ### Data Model Diagram
-![Data Model Diagram](Images/DataModel/DataModel.png)
+![Data Model Diagram](Images/DataModel/DataModelV1.png)
 
 ## Financial Account Standardization
 To improve scalability and support future multi-company implementations, a bilingual account structure was implemented directly within the primary financial statement tables.
@@ -115,6 +115,7 @@ Additional visualizations include:
 Custom DAX measures were implemented to dynamically control visual behavior based on period selection. Executive KPI cards are displayed only when a specific year is selected, while trend and historical analysis visualizations remain available to support multi-year analysis.
 
 The objective of this page is to summarize the company's financial performance, financial condition, and cash generation capacity in a single executive-level dashboard.
+![Overview Dashboard](Images/Overview/OverviewV1.png)
 
 ### Balance Sheet Analysis
 The second dashboard page focuses on analyzing the company's financial position through asset composition, financing structure, liquidity, and solvency indicators.
@@ -140,6 +141,7 @@ Additional visualizations include:
 - Equity Ratio Trend
 
 The objective of this page is to provide a detailed view of the company's financial position, asset composition, financing structure, liquidity profile, and solvency evolution over time.
+![Balance Sheet Dashboard](Images/FinancialStatements/BalanceSheet/BalanceSheetV1.png)
 
 ### Income Statement Analysis
 The third dashboard page focuses on analyzing the company's profitability, operating performance, cost structure, and margin evolution over time.
@@ -165,6 +167,7 @@ Additional visualizations include:
 - Net Income Trend Analysis
 
 The objective of this page is to provide a detailed view of the company's profitability, operating performance, cost structure, and margin evolution over time.
+![Income Statement Dashboard](Images/FinancialStatements/IncomeStatement/IncomeStatementV1.png)
 
 ### Cash Flow Statement Analysis
 The fourth dashboard page focuses on analyzing the company's cash generation, cash utilization, and cash flow sustainability through operating, investing, and financing activities.
@@ -184,3 +187,4 @@ Additional visualizations include:
 - Free Cash Flow Trend
 
 The objective of this page is to provide a detailed view of the company's cash generation, cash utilization, and cash flow sustainability by analyzing operating, investing, and financing activities over time.
+![Cash Flow Dashboard](Images/FinancialStatements/CashFlow/CashFlowV1.png)
